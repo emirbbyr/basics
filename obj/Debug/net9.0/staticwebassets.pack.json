@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\emirhan.bayir\\Desktop\\ASP-NetCore Dersleri\\Basics\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
       "Id": "C:\\Users\\emirhan.bayir\\Desktop\\ASP-NetCore Dersleri\\Basics\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

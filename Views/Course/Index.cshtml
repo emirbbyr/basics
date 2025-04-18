@@ -1,22 +1,4 @@
 @model Course
 <!-- sayfanın kullandığı modelin adı Course -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Course Page</h1>
-    <p>
-        @Model.Id
-    </p>
-    <p>
-        @Model.Title
-    </p>
-    <p>
-        @Model.Description
-    </p>
-</body>
-</html>
+
+@await Html.PartialAsync("_Course", @Model)

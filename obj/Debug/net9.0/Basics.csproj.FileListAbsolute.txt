@@ -95,3 +95,4 @@ C:\Users\emirhan.bayir\Desktop\ASP-NetCore Dersleri\Basics\obj\Debug\net9.0\refi
 C:\Users\emirhan.bayir\Desktop\ASP-NetCore Dersleri\Basics\obj\Debug\net9.0\Basics.pdb
 C:\Users\emirhan.bayir\Desktop\ASP-NetCore Dersleri\Basics\obj\Debug\net9.0\Basics.genruntimeconfig.cache
 C:\Users\emirhan.bayir\Desktop\ASP-NetCore Dersleri\Basics\obj\Debug\net9.0\ref\Basics.dll
+C:\Users\emirhan.bayir\Desktop\ASP-NetCore Dersleri\Basics\obj\Debug\net9.0\Basics.sourcelink.json

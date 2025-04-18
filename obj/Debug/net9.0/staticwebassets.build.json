@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PFwEMfNOmtUMicuCMwtEtC8SyHrrynXYMbKyASYQ16Q=",
+  "Hash": "Egt4+VXJ1L31GrDagXVdEE+7cmi1BxQiyLlQafm+QA8=",
   "Source": "Basics",
   "BasePath": "_content/Basics",
   "Mode": "Default",
@@ -1443,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\emirhan.bayir\\Desktop\\ASP-NetCore Dersleri\\Basics\\wwwroot\\img\\1.jpg",
+      "SourceId": "Basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emirhan.bayir\\Desktop\\ASP-NetCore Dersleri\\Basics\\wwwroot\\",
+      "BasePath": "_content/Basics",
+      "RelativePath": "img/1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hd5g9sgkgh",
+      "Integrity": "y+fhO4xvWBCiaUR15PZPI0AoRLiB+i5dMKP18AGT0vs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\1.jpg"
     },
     {
       "Identity": "C:\\Users\\emirhan.bayir\\Desktop\\ASP-NetCore Dersleri\\Basics\\wwwroot\\js\\site.js",
@@ -3916,6 +3937,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "img/1.hd5g9sgkgh.jpg",
+      "AssetFile": "C:\\Users\\emirhan.bayir\\Desktop\\ASP-NetCore Dersleri\\Basics\\wwwroot\\img\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "531640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y+fhO4xvWBCiaUR15PZPI0AoRLiB+i5dMKP18AGT0vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:44:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hd5g9sgkgh"
+        },
+        {
+          "Name": "label",
+          "Value": "img/1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y+fhO4xvWBCiaUR15PZPI0AoRLiB+i5dMKP18AGT0vs="
+        }
+      ]
+    },
+    {
+      "Route": "img/1.jpg",
+      "AssetFile": "C:\\Users\\emirhan.bayir\\Desktop\\ASP-NetCore Dersleri\\Basics\\wwwroot\\img\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "531640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y+fhO4xvWBCiaUR15PZPI0AoRLiB+i5dMKP18AGT0vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:44:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y+fhO4xvWBCiaUR15PZPI0AoRLiB+i5dMKP18AGT0vs="
         }
       ]
     },
