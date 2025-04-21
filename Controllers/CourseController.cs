@@ -14,15 +14,23 @@ public IActionResult Index()
     return View(kurs);  //kurs objesini view üzerinde görüntülemek için parantez içine yazdık.
    
 }
+
+
+public IActionResult Details(int id)
+{
+    var kurs =Repository.GetById(id);
+return View(kurs);
+}
+
 public IActionResult List()
 {
-    var kurslar = new List<Course>()
-    {
-        new Course () {Id=1, Title ="aspnet kursu", Description="Güzel bir krs",Image="1.jpg"},
-         new Course () {Id=2, Title ="php kursu", Description="Güzel bir krs",Image="1.jpg"},
-          new Course () {Id=3, Title ="djngo kursu", Description="Güzel bir krs",Image="1.jpg"},
-    };
-     return View(kurslar);   
+   // var kurslar = new List<Course>()
+   // {
+   //     new Course () {Id=1, Title ="aspnet kursu", Description="Güzel bir krs",Image="1.jpg"},
+    //     new Course () {Id=2, Title ="php kursu", Description="Güzel bir krs",Image="1.jpg"},
+     //     new Course () {Id=3, Title ="djngo kursu", Description="Güzel bir krs",Image="1.jpg"},
+   // };
+     return View(Repository.Courses);   
 }
 
 }

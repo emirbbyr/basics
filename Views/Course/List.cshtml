@@ -1,7 +1,10 @@
 @model List<Course>
-    @foreach(var kurslarıımm in Model)
+    @foreach(var kurs in Model)
     {
-@await Html.PartialAsync("_Course", kurslarıımm)
+        @if(kurs.isActive)
+        {
+@await Html.PartialAsync("_Course", kurs)
+        }
     }
 
     

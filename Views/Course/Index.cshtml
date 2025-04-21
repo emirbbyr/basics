@@ -1,4 +1,7 @@
 @model Course
 <!-- sayfanın kullandığı modelin adı Course -->
 
-@await Html.PartialAsync("_Course", @Model)
+<h1>Selamlar</h1>
+@section Header {
+    @await Html.PartialAsync("_Course", @Model)
+}
